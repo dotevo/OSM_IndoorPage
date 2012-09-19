@@ -1,0 +1,45 @@
+.header{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   height: 80px;
+   background-color: #f4f4f4
+}
+.wrapper{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 25.00%;
+   background-color: #cccccc
+}
+#menu{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 25.00%;
+   background-color: #ccccff
+}
+#map-id{
+   position: relative;
+   float: right;
+   right: 0.00%;
+   width: 75.00%;
+   background-color: #ccccff
+}
+.footer{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   height: 25px;
+   background-color: #cfcfcf
+}
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-color: #e7e7de
+}
+
