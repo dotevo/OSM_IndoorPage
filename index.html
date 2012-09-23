@@ -13,16 +13,23 @@
 <script src="jquery-ui/development-bundle/ui/jquery.ui.widget.js"></script>
 <script src="jquery-ui/development-bundle/ui/jquery.ui.position.js"></script>
 <script src="jquery-ui/development-bundle/ui/jquery.ui.autocomplete.js"></script>
+<script src="jquery-ui/development-bundle/ui/jquery.ui.button.js"></script>
 <script src="script.js"></script>
 </head>
 <body>
-
+<div class="site">
 <div class="header">
-Miejsce na twoją reklamę ;-)
+	<div class="logo">
+	</div>
+	<div class="menu">
+		<a id='about' href="#">About</a>
+		<a id='source' href="#">Source code</a>
+		<a id='authors' href="#">Authors</a>
+	</div>
 </div> 
 <div class="wrapper">
-    <div id="menuBox">
-        <div id="searchBox">
+    <div id="indoorBox">
+        <div id="searchBox" style="background: #000;">
             <div class="ui-widget">
 	        <input id="search" type="text"/>
 		<input id="clear" type="submit" value="Clear" onclick="clearSearch()"/>
@@ -36,6 +43,7 @@ Miejsce na twoją reklamę ;-)
 </div>
 <div class="footer">
 BLABLA
+</div>
 </div>
 </body>
 </html>

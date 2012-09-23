@@ -15,6 +15,11 @@ $.ui.autocomplete.prototype._renderMenu = function( ul, items ) {
       });
 }
 
+$(function() {
+	$( "a", ".menu" ).button();
+	$("input:submit",".ui-widget").button();
+	$( "a", ".menu" ).click(function() { return false; });
+});
 
 /**************************************
 		INDOOR
@@ -237,8 +242,7 @@ function featureUnselect(feature) {
 		INIT
 **************************************/
 
-
-$(document).ready(function(){
+$(document).ready(function(){	
 	var gg = new OpenLayers.Projection("EPSG:4326");
 	mp = new OpenLayers.Projection("EPSG:900913");
 	var fullext = new OpenLayers.Bounds(100000,100000,900000,850000);

@@ -1,30 +1,40 @@
+.site{
+width: 100.00%;
+max-height:100px;
+}
 .header{
    position: relative;
-   float: left;
    left: 0.00%;
    width: 100.00%;
-   height: 80px;
-   background-color: #f4f4f4
+   height: 40px;
+   padding: 10px;
+   background-image:url('images/header.png');
 }
 .wrapper{
    position: relative;
    float: left;
    left: 0.00%;
    width: 25.00%;
+   padding: 0px;
    background-color: #cccccc
 }
-#menu{
-   position: relative;
+.logo{
+   position: absolute;
    float: left;
    left: 0.00%;
-   width: 25.00%;
-   background-color: #ccccff
+   height: 60px;
+   width: 226px;
+   background-image:url('images/logo.png');
+}
+.menu{
+   position: absolute;
+   float: right;
+   right: 30px;
 }
 #map-id{
    position: relative;
-   float: right;
-   right: 0.00%;
-   width: 75.00%;
+   float: left;
+   width: 75%;
    background-color: #ccccff
 }
 .footer{
@@ -33,13 +43,15 @@
    left: 0.00%;
    width: 100.00%;
    height: 25px;
-   background-color: #cfcfcf
+   background-image:url('images/header.png');   
 }
+
 body {
    border-width: 0px;
    padding: 0px;
    margin: 0px;
+   width: 100%;
    font-size: 90%;
-   background-color: #e7e7de
+   background-color: #000;
 }
 
