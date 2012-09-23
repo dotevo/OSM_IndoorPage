@@ -1,1 +1,15 @@
-TODO
+IndoorOSM Website
+=================
+
+Website shows indoor data from OSM (schema http://wiki.openstreetmap.org/wiki/IndoorOSM).
+Website is online: http://dotevo.geowebhost.pl/osmpoi/?zoom=18&lat=6637972.18027&lon=1894592.9837&layers=BTTT
+
+Install server:
+---------------
+
+-Download planet data (or via overpass relations type=building with all members)
+-Install schema
+-Add data to the database ex. osm2pgsql -d osm2pgsql -S indoor.style data.osm --slim
+-Edit config.php
+-Exec setup.sql psql -d osm2pgsql -f setup.sql
+-Add relation (Indoor) ids to the table 'indoor'   --Needs fix
